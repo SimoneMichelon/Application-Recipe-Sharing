@@ -1,0 +1,16 @@
+<p>
+  <mat-toolbar color="primary" class="navbar">
+    <div class="navbar-logo">
+      <img src="https://storage.googleapis.com/pai-images/0a7fdc5ed8224ed6b8287713f570da3a.jpeg" alt="Logo" class="logo">
+      <span class="navbar-title">FlavorQuest - Recipe's Application</span>
+    </div>
+    <div class="navbar-icons flex pl-15px">
+      <div mat-icon-button class="example-icon flex justify-center items-center" aria-label="Favorite">
+        <div>{{user.fullName}}</div>
+      </div>
+      <button mat-icon-button class="example-icon" (click)="handleLogout()">
+        <mat-icon>logout</mat-icon>
+      </button>
+    </div>
+  </mat-toolbar>
+</p>

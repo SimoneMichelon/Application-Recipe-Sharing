@@ -1,0 +1,41 @@
+.navbar {
+  background-color: #ffdbac;
+  color: #654321;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px; /* Aumenta le dimensioni del logo */
+  height: auto;
+  margin-right: 10px;
+}
+
+.navbar-title {
+  padding-left: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+}
+
+.navbar-icons {
+  display: flex;
+}
+
+.example-icon {
+  color: #654321;
+  margin-left: 10px;
+}
+
+.example-icon:hover {
+  color: #996633;
+}

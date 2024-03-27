@@ -1,0 +1,20 @@
+.footer {
+    background-color: #333; /* Colore di sfondo */
+    color: #fff; /* Colore del testo */
+    padding: 20px; /* Spaziatura interna */
+    text-align: center; /* Allinea il testo al centro */
+  }
+  
+  .footer p {
+    margin: 0; /* Rimuove il margine predefinito */
+  }
+  
+  .footer a {
+    color: #fff; /* Colore dei link */
+    text-decoration: none; /* Rimuove la sottolineatura */
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Aggiunge la sottolineatura al passaggio del mouse */
+  }
+  

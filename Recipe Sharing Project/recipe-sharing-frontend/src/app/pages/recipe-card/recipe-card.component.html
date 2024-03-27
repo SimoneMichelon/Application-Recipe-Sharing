@@ -1,0 +1,34 @@
+<mat-card class="example-card text-black ">
+    <mat-card-header class="border border-gray-300">
+        <img  mat-card-avatar src="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L2thdGV2NjQ0N18zZF9pbGx1c3RyYXRpb25fb2ZfYV9jaGVmX2NodWJieV9ibGFja19tYW5fM2RfY2FydG9vbl82ZDM4MTVkMC1lMDUwLTQyNzgtODJhMS1mNWYwMjg1NGE1NjUucG5n.png" alt="">
+      <mat-card-title>{{recipe.title}}</mat-card-title>
+      <mat-card-subtitle>{{recipe.user.fullName}}</mat-card-subtitle>
+    </mat-card-header>
+    <img class="h-[400px] w-[400px] object-cover object-center" mat-card-image [src]="recipe.image" alt="Photo of a Shiba Inu">
+    <mat-card-content class=""> 
+      <p class="post-description p-2 max-h-[100px] min-h-[100px]">
+        {{recipe.description}}
+      </p>
+    </mat-card-content >
+    <mat-card-actions class="flex justify-between">
+      <div>
+      <button mat-icon-button aria-label="">
+        <mat-icon>favorite</mat-icon>
+      </button>
+
+      <button mat-icon-button aria-label="Example icon button with a home icon" (click)="handleOpenEditRecipeForm()">
+        <mat-icon>edit</mat-icon>
+      </button>
+
+      <button mat-icon-button aria-label="Example icon button with a home icon">
+        <mat-icon>share</mat-icon>
+      </button>
+    </div>
+    <div>
+      <button mat-icon-button aria-label="Example icon button with a home icon" (click)="handleDeleteRecipe()" >
+        <mat-icon>delete</mat-icon>
+      </button>
+    </div>
+    </mat-card-actions>
+  </mat-card>
+  
